@@ -1,0 +1,362 @@
+<style><!--
+.box{
+  border: 3px solid #BCBEC0;
+  padding: 1em .5em;
+  border-radius: 5px; 
+  margin-top: 2em;
+}
+.circle{
+  width: 35px; 
+  height: 35px; 
+  border-radius: 100%; 
+  display: inline-table;
+  margin: 1em;
+}
+        
+.golden{background-color:#F5B46C; }
+.silver{background-color:#525452; }
+.bronze{background-color:#CB6128; }
+.pink{background-color:#C879A9; }
+.purple{background-color:#63184F; }
+.orange{background-color:#F18121; }
+.red{background-color:#E32428; }
+.blue{background-color:#0070B7; }
+.black{background-color:#1D1B1C; }
+
+.title{
+  font-size: 1.17em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  margin-top: -2.5em;
+  margin-left: 5em;
+  margin-bottom:1em;
+  text-transform: uppercase;
+}
+  
+.title span{
+  font-size: 15px;
+  color:black!important;
+}
+.sports img {
+  width: 60px;
+}
+
+.sports{
+  margin-bottom: 2em;
+}
+.mobiledescs{
+  border: 1em solid rgb(251, 176, 64);
+  font-size: 12px;
+  width: 458.2px;
+  margin-top:.4em;
+  margin-left:1em;
+  padding: 1em;
+  height: 150px;
+}
+.panel-default > .panel-heading{
+  background-color:rgb(251, 176, 64)!important;
+}
+.panel-title{
+  color:white!important;
+  font-size: 20px!important;
+}
+.panel-title > a:hover, .panel-title > a:focus{
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .sports img {
+    width: 140px;
+    margin: 1em;
+    float: none;
+    cursor:pointer;
+  }
+  .orangebgs{
+    position: absolute;
+    z-index: -1;
+  }
+
+  .icons{
+  display: inline-block;
+  }
+
+
+
+}
+@media screen and (min-width: 992px) {
+}
+>
+--></style>
+<p>
+<script type="text/javascript">// <![CDATA[
+$(document).ready(function(){
+  $(".desc").hide();
+    $(".orangebgs:eq(0)").css("z-index","1");
+    $(".button").click(function(){
+      var i = $(".button").index(this);
+      //$(".testing").text( "That was div index #" + i );
+      $(".descs:eq("+ i +")").fadeIn();
+      $(".descs:gt("+ i +"), .descs:lt("+ i +")").hide();
+      $(".orangebgs:eq("+ i +")").css("z-index","1");
+      $(".orangebgs:gt("+ i +"), .orangebgs:lt("+ i +")").css("z-index","-1");
+    });
+
+    $(".buttons").click(function(){
+      var i = $(".buttons").index(this);
+      //$(".testing").text( "That was div index #" + i );
+      $(".mobiledescs:eq("+ i +")").fadeIn();
+      $(".mobiledescs:gt("+ i +"), .mobiledescs:lt("+ i +")").hide();
+    });
+});
+// ]]></script>
+</p>
+<div class="col-xs-12"><img alt="Golden Whistle Banner" src="images/activities/Golden Whistle/940x330-golden-whistle-banner-06.png" style="margin-bottom: 2em;" />
+<div class="row">
+<div class="col-sm-6">
+<h1>Golden Whistle</h1>
+<hr />
+<p>The Golden Whistle is the highest rank achieved by an official at BYU-Idaho. Since BYU-Idaho does not require national/district certifications for recreational and most competitive sports, a golden whistle signifies that an official has advanced their ability in their sport and has had a positive impact on the sporting program.</p>
+<h2>Whistle Rankings</h2>
+<p>Each rank is established based on an official's duration in the program, ability as a referee, knowledge and application of the rules, and level of professionalism. The program is designed to allow officials to achieve an increase in rank each semester they officiate.</p>
+</div>
+<div class="col-sm-6">
+<div class="box">
+<div class="golden circle"></div>
+<div class="title" style="color: #f5b46c;">golden <span> (1150+)</span></div>
+<div class="silver circle"></div>
+<div class="title" style="color: #525452;">silver <span> (1000-1149)</span></div>
+<div class="bronze circle"></div>
+<div class="title" style="color: #cb6128;">bronze <span> (850-999)</span></div>
+<div class="pink circle"></div>
+<div class="title" style="color: #c879a9;">pink <span> (700-849)</span></div>
+<div class="purple circle"></div>
+<div class="title" style="color: #63184f;">purple <span> (550-699)</span></div>
+<div class="orange circle"></div>
+<div class="title" style="color: #f18121;">orange <span> (400-549)</span></div>
+<div class="red circle"></div>
+<div class="title" style="color: #e32428;">red <span> (250-399)</span></div>
+<div class="blue circle"></div>
+<div class="title" style="color: #0070b7;">blue <span> (100-249)</span></div>
+<div class="black circle"></div>
+<div class="title" style="color: #1d1b1c;">black <span> (0-99)</span></div>
+</div>
+</div>
+</div>
+<h2>Disciplines</h2>
+<div class="hidden-xs">
+<div class="sports">
+<div class="icons"><img alt="orangebgs icons" class="orangebgs" src="images/activities/Golden Whistle/website-rankings-07.png" /> <img alt="Soccer icons" class="button" src="images/activities/Golden Whistle/website-rankings-13.png" /></div>
+<div class="icons"><img alt="orangebgs icons" class="orangebgs" src="images/activities/Golden Whistle/website-rankings-07.png" /> <img alt="Basketball icons" class="button" src="images/activities/Golden Whistle/website-rankings-08.png" /></div>
+<div class="icons"><img alt="orangebgs icons" class="orangebgs" src="images/activities/Golden Whistle/website-rankings-07.png" /> <img alt="Volleyball icons" class="button" src="images/activities/Golden Whistle/website-rankings-09.png" /></div>
+<div class="icons"><img alt="orangebgs icons" class="orangebgs" src="images/activities/Golden Whistle/website-rankings-07.png" /> <img alt="Softball icons" class="button" src="images/activities/Golden Whistle/website-rankings-10.png" /></div>
+<div class="icons"><img alt="orangebgs icons" class="orangebgs" src="images/activities/Golden Whistle/website-rankings-07.png" /> <img alt="Flag Football icons" class="button" src="images/activities/Golden Whistle/website-rankings-11.png" /></div>
+<div class="icons"><img alt="orangebgs icons" class="orangebgs" src="images/activities/Golden Whistle/website-rankings-07.png" /> <img alt="Lacrosse icons" class="button" src="images/activities/Golden Whistle/website-rankings-12.png" /></div>
+<div class="icons"><img alt="orangebgs icons" class="orangebgs" src="images/activities/Golden Whistle/website-rankings-07.png" /> <img alt="Wrestling icons" class="button" src="images/activities/Golden Whistle/1gw.website.rankings-14.png" /></div>
+<div class="icons"><img alt="orangebgs icons" class="orangebgs" src="images/activities/Golden Whistle/website-rankings-07.png" /> <img alt="Water Polo icons" class="button" src="images/activities/Golden Whistle/1gw.website.rankings-15.png" /></div>
+</div>
+<!-- <span class="testing">Click a div!</span> -->
+<div class="descs">
+<div class="col-sm-4 col-md-3"><img alt="Soccer icon" src="images/activities/Golden Whistle/website-rankings-13.png" /></div>
+<div class="col-sm-5 col-md-5">
+<h4>Soccer</h4>
+<p>Soccer officials use the FIFA Laws of the Game as a basis for rules, with adaptations specific to BYU-Idaho.</p>
+<p>Futsal officials use the FIFA Futsal Laws of the Game as a basis for rules, with adaptations specific to BYU-Idaho.</p>
+<p>Soccer is played with eleven players per team. Coed soccer is offered fall and spring semester with beginner, intermediate, and advanced leagues. Men's and women's competitive soccer are offered during fall semester.</p>
+<p>Futsal is played with five players per team. Coed futsal is offered winter semester.</p>
+</div>
+</div>
+<div class="descs desc">
+<div class="col-sm-4 col-md-3"><img alt="Basketball icon" src="images/activities/Golden Whistle/website-rankings-08.png" /></div>
+<div class="col-sm-5 col-md-5">
+<h4>Basketball</h4>
+<p>Basketball officials use the National Federation of State High School Associations Basketball Rules, with adaptations specific to BYU-Idaho.</p>
+<p>Basketball is played with five players per team. Basketball is offered year round with men's, women's, and coed leagues with beginner, intermediate, and advanced skill levels. Men's and women's competitive basketball are offered during winter semester.</p>
+</div>
+</div>
+<div class="descs desc">
+<div class="col-sm-4 col-md-3"><img alt="Volleyball icon" src="images/activities/Golden Whistle/website-rankings-09.png" /></div>
+<div class="col-sm-5 col-md-5">
+<h4>Volleyball</h4>
+<p>Volleyball officials use the USA Volleyball Rules, with adaptations specific to BYU-Idaho.</p>
+<p>Volleyball is played with six players per team. Court volleyball is offered fall and winter semesters. Grass volleyball is offered fall and spring semesters. Both court and grass volleyball has coed beginner, intermediate, and advanced leagues. Men's and women's competitive volleyball are offered during fall semester.</p>
+</div>
+</div>
+<div class="descs desc">
+<div class="col-sm-4 col-md-3"><img alt="Softball icon" src="images/activities/Golden Whistle/website-rankings-10.png" /></div>
+<div class="col-sm-5 col-md-5">
+<h4>Softball</h4>
+<p>Softball officials use the ASA (American Softball Association) slow-pitch softball rules, with adaptations specific to BYU-Idaho.</p>
+<p>Softball is played with seven players per team. Softball is offered spring and fall semester. There are coed leagues with beginner, intermediate, and advanced skill levels. Women's competitive softball is offered during spring semester.</p>
+</div>
+</div>
+<div class="descs desc">
+<div class="col-sm-4 col-md-3"><img alt="Flag Football icon" src="images/activities/Golden Whistle/website-rankings-11.png" /></div>
+<div class="col-sm-5 col-md-5">
+<h4>Flag Football</h4>
+<p>Flag football officials use the NIRSA (National Intramural and Recreational Sports Association) Flag &amp; Touch Football Rules, with adaptations specific to BYU-Idaho.</p>
+<p>Flag football is played with seven players per team (eight for coed leagues). Flag football is offered spring and fall semesters. There are men's, women's, and coed leagues with beginner, intermediate, and advanced skill levels. Men's competitive football is offered during fall semester.</p>
+</div>
+</div>
+<div class="descs desc">
+<div class="col-sm-4 col-md-3"><img alt="Lacrosse icon" src="images/activities/Golden Whistle/website-rankings-12.png" /></div>
+<div class="col-sm-5 col-md-5">
+<h4>Lacrosse</h4>
+<p>Lacrosse officials use the NFHS (National Federation of State High School) rules, with adaptations specific for BYU-Idaho.</p>
+<p>Lacrosse is played with ten players on each team. Lacrosse is a competitive sport that is only offered during spring semester. There are both men's and women's leagues.</p>
+</div>
+</div>
+<div class="descs desc">
+<div class="col-sm-4 col-md-3"><img alt="Wrestling icon" src="images/activities/Golden Whistle/1gw.website.rankings-14.png" width="100%" /></div>
+<div class="col-sm-5 col-md-5">
+<h4>Wrestling</h4>
+<p>Wrestling officials use the NFHS (National Federation of State High School) rules, with adaptations specific for BYU-Idaho.</p>
+<p>Wrestling is played as a series of matched between two teams. Wrestling is a competitive sport that is only offered during winter semester. There is only a men's league.</p>
+</div>
+</div>
+<div class="descs desc">
+<div class="col-sm-4 col-md-3"><img alt="Water Polo icon" src="images/activities/Golden Whistle/1gw.website.rankings-15.png" width="100%" /></div>
+<div class="col-sm-5 col-md-5">
+<h4>Water Polo</h4>
+<p>Water Polo officials use the NFHS (National Federation of State High School) rules, with adaptations specific for BYU-Idaho.</p>
+<p>Water polo is played with seven players on each team. Water polo is a competitive sport that is only offered during winter semester. There are both men's and women's leagues.</p>
+</div>
+</div>
+</div>
+<div class="hidden-sm hidden-md hidden-lg ">
+<div class="row">
+<div class="sports"><!-- <div class="row"><img alt="Soccer icons" class="buttons" src="images/activities/Golden Whistle/website-rankings-13.png" />
+<div class="mobiledescs">
+<p><strong>Soccer</strong><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laborum sit eligendi dolorum quis, error fugit vel qui corporis eveniet dolor nihil culpa repellendus mollitia doloremque placeat molestias quos similique!</p>
+</div>
+</div>
+<div class="row"><img alt="Basketball icons" class="buttons" src="images/activities/Golden Whistle/website-rankings-08.png" />
+<div class="mobiledescs desc">
+<p><strong>Basketball</strong><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laborum sit eligendi dolorum quis, error fugit vel qui corporis eveniet dolor nihil culpa repellendus mollitia doloremque placeat molestias quos similique!</p>
+</div>
+</div>
+<div class="row"><img alt="Volleyball icons" class="buttons" src="images/activities/Golden Whistle/website-rankings-09.png" />
+<div class="mobiledescs desc">
+<p><strong>Volleyball</strong><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laborum sit eligendi dolorum quis, error fugit vel qui corporis eveniet dolor nihil culpa repellendus mollitia doloremque placeat molestias quos similique!</p>
+</div>
+</div>
+<div class="row"><img alt="Softball icons" class="buttons" src="images/activities/Golden Whistle/website-rankings-10.png" />
+<div class="mobiledescs desc">
+<p><strong>Softball</strong><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laborum sit eligendi dolorum quis, error fugit vel qui corporis eveniet dolor nihil culpa repellendus mollitia doloremque placeat molestias quos similique!</p>
+</div>
+</div>
+<div class="row"><img alt="Flag Football icons" class="buttons" src="images/activities/Golden Whistle/website-rankings-11.png" />
+<div class="mobiledescs desc">
+<p><strong>Flag Football</strong><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laborum sit eligendi dolorum quis, error fugit vel qui corporis eveniet dolor nihil culpa repellendus mollitia doloremque placeat molestias quos similique!</p>
+</div>
+</div>
+<div class="row"><img alt="Lacrosse icon" class="buttons" src="images/activities/Golden Whistle/website-rankings-12.png" />
+<div class="mobiledescs desc">
+<p><strong>Lacrosse</strong><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laborum sit eligendi dolorum quis, error fugit vel qui corporis eveniet dolor nihil culpa repellendus mollitia doloremque placeat molestias quos similique!</p>
+</div>
+</div>
+<div class="row"><img alt="Wrestling icon" class="buttons" src="images/activities/Golden Whistle/1gw.website.rankings-14.png" />
+<div class="mobiledescs desc">
+<p><strong>Wrestling</strong><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laborum sit eligendi dolorum quis, error fugit vel qui corporis eveniet dolor nihil culpa repellendus mollitia doloremque placeat molestias quos similique!</p>
+</div>
+</div>
+<div class="row"><img alt="Water Polo icon" class="buttons" src="images/activities/Golden Whistle/1gw.website.rankings-15.png" />
+<div class="mobiledescs desc">
+<p><strong>Water Polo</strong><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut laborum sit eligendi dolorum quis, error fugit vel qui corporis eveniet dolor nihil culpa repellendus mollitia doloremque placeat molestias quos similique!</p>
+</div>
+</div> -->
+<div class="panel-group" id="accordion">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapse1" data-toggle="collapse" data-parent="#accordion"><img alt="Soccer icons" class="buttons" src="images/activities/Golden Whistle/website-rankings-13.png" />&nbsp; &nbsp;Soccer</a></h4>
+</div>
+<div class="panel-collapse collapse in" id="collapse1">
+<div class="panel-body">
+<p><strong>Soccer</strong><br />Soccer officials use the FIFA Laws of the Game as a basis for rules, with adaptations specific to BYU-Idaho.</p>
+<p>Futsal officials use the FIFA Futsal Laws of the Game as a basis for rules, with adaptations specific to BYU-Idaho.</p>
+<p>Soccer is played with eleven players per team. Coed soccer is offered fall and spring semester with beginner, intermediate, and advanced leagues. Men's and women's competitive soccer are offered during fall semester.</p>
+<p>Futsal is played with five players per team. Coed futsal is offered winter semester.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapse2" data-toggle="collapse" data-parent="#accordion"><img alt="Basketball icons" class="buttons" src="images/activities/Golden Whistle/website-rankings-08.png" />&nbsp; &nbsp;Basketball</a></h4>
+</div>
+<div class="panel-collapse collapse" id="collapse2">
+<div class="panel-body">
+<p><strong>Basketball</strong><br />Basketball officials use the National Federation of State High School Associations Basketball Rules, with adaptations specific to BYU-Idaho.</p>
+<p>Basketball is played with five players per team. Basketball is offered year round with men's, women's, and coed leagues with beginner, intermediate, and advanced skill levels. Men's and women's competitive basketball are offered during winter semester.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapse3" data-toggle="collapse" data-parent="#accordion"><img alt="Volleyball icons" class="buttons" src="images/activities/Golden Whistle/website-rankings-09.png" />&nbsp; &nbsp;Volleyball</a></h4>
+</div>
+<div class="panel-collapse collapse" id="collapse3">
+<div class="panel-body">
+<p><strong>Volleyball</strong><br />Volleyball officials use the USA Volleyball Rules, with adaptations specific to BYU-Idaho.</p>
+<p>Volleyball is played with six players per team. Court volleyball is offered fall and winter semesters. Grass volleyball is offered fall and spring semesters. Both court and grass volleyball has coed beginner, intermediate, and advanced leagues. Men's and women's competitive volleyball are offered during fall semester.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapse4" data-toggle="collapse" data-parent="#accordion"><img alt="Softball icons" class="buttons" src="images/activities/Golden Whistle/website-rankings-10.png" />&nbsp; &nbsp;Softball</a></h4>
+</div>
+<div class="panel-collapse collapse" id="collapse4">
+<div class="panel-body">
+<p><strong>Softball</strong><br />Softball officials use the ASA (American Softball Association) slow-pitch softball rules, with adaptations specific to BYU-Idaho.</p>
+<p>Softball is played with seven players per team. Softball is offered spring and fall semester. There are coed leagues with beginner, intermediate, and advanced skill levels. Women's competitive softball is offered during spring semester.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapse5" data-toggle="collapse" data-parent="#accordion"><img alt="Flag Football icons" class="buttons" src="images/activities/Golden Whistle/website-rankings-11.png" />&nbsp; &nbsp;Flag Football</a></h4>
+</div>
+<div class="panel-collapse collapse" id="collapse5">
+<div class="panel-body">
+<p><strong>Flag Football</strong><br />Flag football officials use the NIRSA (National Intramural and Recreational Sports Association) Flag &amp; Touch Football Rules, with adaptations specific to BYU-Idaho.</p>
+<p>Flag football is played with seven players per team (eight for coed leagues). Flag football is offered spring and fall semesters. There are men's, women's, and coed leagues with beginner, intermediate, and advanced skill levels. Men's competitive football is offered during fall semester.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapse8" data-toggle="collapse" data-parent="#accordion"><img alt="Lacrosse icon" src="images/activities/Golden Whistle/website-rankings-12.png" />&nbsp; &nbsp;Lacrosse </a></h4>
+</div>
+<div class="panel-collapse collapse" id="collapse8">
+<div class="panel-body">
+<p><strong>Lacrosse </strong><br />Lacrosse officials use the NFHS (National Federation of State High School) rules, with adaptations specific for BYU-Idaho.</p>
+<p>Lacrosse is played with ten players on each team. Lacrosse is a competitive sport that is only offered during spring semester. There are both men's and women's leagues.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapse6" data-toggle="collapse" data-parent="#accordion"><img alt="Wrestling icon" src="images/activities/Golden Whistle/1gw.website.rankings-14.png" />&nbsp; &nbsp;Wrestling</a></h4>
+</div>
+<div class="panel-collapse collapse" id="collapse6">
+<div class="panel-body">
+<p><strong>Wrestling</strong><br />Wrestling officials use the NFHS (National Federation of State High School) rules, with adaptations specific for BYU-Idaho.</p>
+<p>Wrestling is played as a series of matched between two teams. Wrestling is a competitive sport that is only offered during winter semester. There is only a men's league.</p>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title"><a href="#collapse7" data-toggle="collapse" data-parent="#accordion"><img alt="Water Polo icon" src="images/activities/Golden Whistle/1gw.website.rankings-15.png" />&nbsp; &nbsp;Water Polo</a></h4>
+</div>
+<div class="panel-collapse collapse" id="collapse7">
+<div class="panel-body">
+<p><strong>Water Polo</strong><br />Water Polo officials use the NFHS (National Federation of State High School) rules, with adaptations specific for BYU-Idaho.</p>
+<p>Water polo is played with seven players on each team. Water polo is a competitive sport that is only offered during winter semester. There are both men's and women's leagues.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
