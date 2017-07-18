@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Fly</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+   <script src="path_to_jquery_cookie_plugin/jquery.cookie.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!-- Latest jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Bootstrap Core JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Cookie JS for Modal -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+
+<style>
+    .modal-dialog{
+        width:400px;
+    }
+    .modal-content{
+        width:420px;
+    }
+    .modal-title h4{
+        font-size:30px;
+    }
+    
+    .modal-title p{
+        font-size:27px;
+    }
+    .btn-block{
+        font-size:20px;
+        font-weight:500;
+    }
+    
+</style>
+</head>
+    <body>
+
+    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close nothanks" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Defining Influence</h4>
+          <p>Discover the impact of professors in the lives of five BYU-Idaho alumni. Hear what they have to say in their own words.</p>
+          <button type="button" class="btn btn-block nothanks" data-dismiss="modal">Continue</button>
+
+        </div>
+       
+        
+      </div>
+    </div>
+  </div>
+
+    <script>
+      // Delayed Modal Display + Cookie On Click
+      $(document).ready(function() {
+
+        // If no cookie with our chosen name (e.g. no_thanks)...
+        if ($.cookie("no_thanks") == null) {
+
+          // Show the modal, with delay func.
+          $('#myModal').prependTo("body");
+          function show_modal(){
+            $('#myModal').modal();
+          }
+
+          // Set delay func. time in milliseconds
+          window.setTimeout(show_modal, 1000);
+          }
+
+        // On click of specified class (e.g. 'nothanks'), trigger cookie, which expires in 100 years
+        $(".nothanks,body").click(function() {
+          $.cookie('no_thanks', 'true', { expires: 36500, path: '/' });
+        });
+      });
+    </script>
+
+    
+</body>
+
+</html>
