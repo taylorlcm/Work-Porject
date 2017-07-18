@@ -1,0 +1,180 @@
+<style><!--
+.letter a{
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: .5em;
+}
+.letter, .search, .inputbox{
+  text-align: center;
+
+}
+
+.button {
+    background-color: #0668B3;
+    border: none;
+    color: white;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+.col-sm-8 a {
+  line-height:2.5em;
+}
+
+a.header {
+  font-size: 25px;
+}
+
+
+
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+--></style>
+<p>
+<script type="text/javascript">// <![CDATA[
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName('a')[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = '';
+        } else {
+            li[i].style.display = 'none';
+
+        }
+    }
+}
+// ]]></script>
+</p>
+<p class="sr-only">For a PDF Screen Reader download:<a href="http://get/adobe.come/reader/"> Adobe Reader</a>.</p>
+<div class="col-xs-12">
+<h1>Major to Career</h1>
+<hr />
+<div class="letter"><a href="#a">A</a> <a href="#b">B</a> <a href="#c">C</a> <a href="#d">D</a> <a href="#e">E</a> <a href="#f">F</a> <a href="#g">G</a> <a href="#h">H</a> <a href="#i">I</a> <a href="#j">J</a> <a href="#k">K</a> <a href="#l">L</a> <a href="#m">M</a> <a href="#n">N</a> <a href="#o">O</a> <a href="#p">P</a> <a href="#q">Q</a> <a href="#r">R</a> <a href="#s">S</a> <a href="#t">T</a> <a href="#u">U</a> <a href="#v">V</a> <a href="#w">W</a> <a href="#x">X</a> <a href="#y">Y</a> <a href="#z">Z</a></div>
+<!--<br /><form action="http://www.byui.edu/" class="search" method="get" name="searchform" target="_blank"><input class="button" type="submit" value="Find a Term" /> <input name="sitesearch" type="hidden" /> <input name="as_q" placeholder="Search.." size="20" type="text" /></form>
+-->
+<div class="inputbox"><br /><input id="myInput" onkeyup="myFunction()" placeholder="Search ..." title="Type in a name" type="text" /></div>
+</div>
+<div class="col-sm-8">
+<ul id="myUL">
+<li><a class="header" href="#" id="a">A</a></li>
+<li><a href="x116028.xml">Accounting</a></li>
+<li><a href="x116706.xml">Agribusiness</a></li>
+<li><a href="x116711.xml">Agricultural Economics</a></li>
+<li><a href="x116712.xml">Agriculture</a></li>
+<li><a href="x116713.xml">Agriculture Education Composite</a></li>
+<li><a href="x116714.xml">Animal Science</a></li>
+<li><a href="x116715.xml">Architectural Technology</a></li>
+<li><a href="x116716.xml">Architecture</a></li>
+<li><a href="x116717.xml">Art</a></li>
+<li><a href="x116718.xml">Art Education</a></li>
+<li><a href="x116719.xml">Art Education Composite</a></li>
+<li><a href="x116720.xml">Art History Education</a></li>
+<li><a href="x116721.xml">Automotive Technology</a></li>
+<li><a class="header" href="#" id="b">B</a></li>
+<li><a href="x116722.xml">Biochemistry</a></li>
+<li><a href="x116723.xml">Biology</a></li>
+<li><a href="x116727.xml">Biology Education</a></li>
+<li><a href="x116733.xml">Biology Education Composite</a></li>
+<li><a href="x116734.xml">Business Analytics</a></li>
+<li><a href="x116736.xml">Business Management</a></li>
+<li><a class="header" href="#" id="c">C</a></li>
+<li><a href="x116740.xml">Chemistry</a></li>
+<li><a href="x116741.xml">Chemistry Education</a></li>
+<li><a href="x116743.xml">Child Development</a></li>
+<li><a href="x116744.xml">Civil Engineering</a></li>
+<li><a href="x116747.xml">Communication</a></li>
+<li><a href="x116748.xml">Computer Engineering</a></li>
+<li><a href="x116749.xml">Computer Information Technology</a></li>
+<li><a href="x116750.xml">Computer Programming</a></li>
+<li><a href="x116751.xml">Computer Science</a></li>
+<li><a href="x116752.xml">Construction Management</a></li>
+<li><a href="x116753.xml">Culinary Arts (Minor)</a></li>
+<li><a class="header" href="#" id="d">D</a></li>
+<li><a href="x116754.xml">Dance</a></li>
+<li><a class="header" href="#" id="e">E</a></li>
+<li><a href="x116755.xml">Early Childhood / Special Education</a></li>
+<li><a href="x116756.xml">Earth Science Education</a></li>
+<li><a href="x116757.xml">Ecology, Range, Wild Life and Fisheries</a></li>
+<li><a href="x116758.xml">Economics</a></li>
+<li><a href="x116759.xml">Education</a></li>
+<li><a href="x116760.xml">Electrical Engineering</a></li>
+<li><a href="x116761.xml">Elementary Education</a></li>
+<li><a href="x116762.xml">Emergency Medical Services Administration</a></li>
+<li><a href="x116763.xml">English</a></li>
+<li><a href="x116764.xml">Exercise and Sports Science</a></li>
+<li><a href="x116765.xml">Exercise Physiology</a></li>
+<li><a class="header" href="#" id="f">F</a></li>
+<li><a href="x116773.xml">Family and Consumer Science</a></li>
+<li><a href="x116774.xml">Family and Consumer Science Education</a></li>
+<li><a href="x116775.xml">Financial Economics</a></li>
+<li><a href="x116776.xml">Fine Arts</a></li>
+<li><a href="x116777xml">Food Science</a></li>
+<li><a href="x116778.xml">Foreign Language &amp; Literature</a></li>
+<li><a class="header" href="#" id="g">G</a></li>
+<li><a href="x116779.xml">Geography</a></li>
+<li><a href="x116780.xml">Geology</a></li>
+<li><a class="header" href="#" id="h">H</a></li>
+<li><a href="x116781.xml">Health Science</a></li>
+<li><a href="x116782.xml">History</a></li>
+<li><a href="x116785.xml">Horticulture</a></li>
+<li><a href="x116786.xml">Humanities</a></li>
+<li><a class="header" href="#" id="i">I</a></li>
+<li><a href="x116791.xml">Informatics</a></li>
+<li><a href="x116792.xml">Information Systems</a></li>
+<li><a href="x116793.xml">Interdisciplinary Studies Degree</a></li>
+<li><a href="x116794.xml">Interior Design</a></li>
+<li><a href="x116795.xml">International Studies</a></li>
+<li><a class="header" href="#" id="j">J</a></li>
+<li><a class="header" href="#" id="k">K</a></li>
+<li><a class="header" href="#" id="l">L</a></li>
+<li><a class="header" href="#" id="m">M</a></li>
+<li><a href="x116796.xml">Marriage and Family Studies</a></li>
+<li><a href="x116797.xml">Math</a></li>
+<li><a href="x116798.xml">Mechanical Engineering</a></li>
+<li><a href="x116800.xml">Medical Assisting</a></li>
+<li><a href="x116801.xml">Microbiology</a></li>
+<li><a href="x117522.xml">Military Science (ROTC)</a></li>
+<li><a href="x116802.xml">Music</a></li>
+<li><a href="x116803.xml">Music Education</a></li>
+<li><a class="header" href="#" id="n">N</a></li>
+<li><a href="x116811.xml">Nursing</a></li>
+<li><a class="header" href="#" id="o">O</a></li>
+<li><a class="header" href="#" id="p">P</a></li>
+<li><a href="x116813.xml">Paramedicine</a></li>
+<li><a href="x116814.xml">Physical Education</a></li>
+<li><a href="x116815.xml">Physics</a></li>
+<li><a href="x116817.xml">Political Science</a></li>
+<li><a href="x116818.xml">Psychology</a></li>
+<li><a class="header" href="#" id="q">Q</a></li>
+<li><a class="header" href="#" id="r">R</a></li>
+<li><a href="x116819.xml">Recreation Management</a></li>
+<li><a class="header" href="#" id="s">S</a></li>
+<li><a href="x116820.xml">Secondary Education</a></li>
+<li><a href="x116822.xml">Social Studies Education Composite</a></li>
+<li><a href="x116825.xml">Social Work</a></li>
+<li><a href="x116826.xml">Sociology</a></li>
+<li><a href="x116828.xml">Software Engineering</a></li>
+<li><a href="x116829.xml">Spanish Education</a></li>
+<li><a class="header" href="#" id="t">T</a></li>
+<li><a href="x116830.xml">Theatre</a></li>
+<li><a href="x116831.xml">Theatre and Speech Education</a></li>
+<li><a class="header" href="#" id="u">U</a></li>
+<li><a class="header" href="#" id="v">V</a></li>
+<li><a class="header" href="#" id="w">W</a></li>
+<li><a href="x116832.xml">Web Design and Development</a></li>
+<li><a class="header" href="#" id="x">X</a></li>
+<li><a class="header" href="#" id="y">Y</a></li>
+<li><a class="header" href="#" id="z">Z</a></li>
+</ul>
+</div>
